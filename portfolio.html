@@ -1,0 +1,44 @@
+<!-- CSS Stylesheets With Relative Paths -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ramesh's Bio</title>
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+</head>
+
+<body>
+  <header>
+    <h1>Ramesh K</h1>
+    <section id="headerlinks">
+    <a href="index.html">About    |</a>
+    <a href="portfolio.html">Portfolio    |</a>
+    <a href="contact.html">Contact</a>
+    </section>
+  </header>
+
+  <div class="container">
+    <section id="main-bio">
+      <h2>Portfolio</h2>
+    <hr/>
+      <div class="thumbnails">
+          <img src="./assets/images/gadget.jpeg" alt="Gadget"/> 
+          <p class="p1">Ocean Blues</p>
+          <img src="./assets/images/fall.jpeg" alt="Gadget"/> 
+          <p class="p1">Beautiful Sunrise</p>
+         <img src="./assets/images/travel1.jpeg" alt="Gadget"/> 
+          <p class="p1">Tech Gadget</p>
+      </div>
+    </section>
+  </div>
+
+  <section id="footer">
+    <p>@copyright</p>
+  </section>
+</body>
+
+</html>

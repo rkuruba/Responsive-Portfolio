@@ -1,0 +1,51 @@
+<!-- CSS Stylesheets With Relative Paths -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ramesh's Bio</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+</head>
+
+<body>
+
+  <header>
+    <h1>Ramesh K</h1>
+    <section id="headerlinks">
+    <a href="index.html">About    |</a>
+    <a href="portfolio.html">Portfolio    |</a>
+    <a href="contact.html">Contact</a>
+    </section>
+  </header>
+
+  <div class="container">
+    <section id="main-bio">
+
+      <h2>Contact</h2>
+    <hr/>
+    <form action="/action_page.php">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name..">
+  
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Your email..">
+  
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>  
+    </section>
+
+  </div>
+  <section id="footer">
+    <p>@copyright</p>
+  </section>
+</body>
+
+</html>
